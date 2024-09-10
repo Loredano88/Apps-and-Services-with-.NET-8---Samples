@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithTasks", "WorkingWithTasks\WorkingWithTasks.csproj", "{854816AA-272C-4ACA-8E86-FF00D6CFB4F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithTasks", "WorkingWithTasks\WorkingWithTasks.csproj", "{854816AA-272C-4ACA-8E86-FF00D6CFB4F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizingResourceAccess", "SynchronizingResourceAccess\SynchronizingResourceAccess.csproj", "{10477230-7BC5-443E-9D34-35924D2663CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncConsole", "AsyncConsole\AsyncConsole.csproj", "{38D156F9-5264-4D72-9C2E-9184ECE78C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncEnumerable", "AsyncEnumerable\AsyncEnumerable.csproj", "{654B2D3F-793A-44F4-A521-E38F5E40D95E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfResponsive", "WpfResponsive\WpfResponsive.csproj", "{569A17C2-962F-40D9-8AB2-ACAE40745667}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{854816AA-272C-4ACA-8E86-FF00D6CFB4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{854816AA-272C-4ACA-8E86-FF00D6CFB4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{854816AA-272C-4ACA-8E86-FF00D6CFB4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10477230-7BC5-443E-9D34-35924D2663CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10477230-7BC5-443E-9D34-35924D2663CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10477230-7BC5-443E-9D34-35924D2663CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10477230-7BC5-443E-9D34-35924D2663CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D156F9-5264-4D72-9C2E-9184ECE78C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D156F9-5264-4D72-9C2E-9184ECE78C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D156F9-5264-4D72-9C2E-9184ECE78C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D156F9-5264-4D72-9C2E-9184ECE78C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654B2D3F-793A-44F4-A521-E38F5E40D95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654B2D3F-793A-44F4-A521-E38F5E40D95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654B2D3F-793A-44F4-A521-E38F5E40D95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654B2D3F-793A-44F4-A521-E38F5E40D95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569A17C2-962F-40D9-8AB2-ACAE40745667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569A17C2-962F-40D9-8AB2-ACAE40745667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569A17C2-962F-40D9-8AB2-ACAE40745667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569A17C2-962F-40D9-8AB2-ACAE40745667}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
