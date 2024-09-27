@@ -6,4 +6,17 @@ public partial class EmployeesPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void CopyToClipboardButton_Clicked(object sender, EventArgs e)
+    {
+        await Clipboard.Default.SetTextAsync(NotesTextBox.Text);
+    }
+
+    private async void PasteFromClipboardButton_Clicked(object sender, EventArgs e)
+    {
+        if (Clipboard.HasText)
+        {
+            NotesTextBox.Text = await Clipboard.Default.GetTextAsync();
+        }
+    }
 }
